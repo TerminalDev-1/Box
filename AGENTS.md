@@ -1,6 +1,6 @@
-# AGENTS.md — Box Workstation (`BoxVM`)
+# AGENTS.md — Box! Workstation (`BoxVM`)
 
-> **Box** is a **100% pure native Rust** desktop virtual machine workstation for Windows, powered by **QEMU + Windows Hypervisor Platform (WHPX)**, **QMP**, and a **direct native TCP RFB/VNC GPU framebuffer renderer** (`eframe` / `egui` 0.37 on `wgpu` DX12).
+> **Box!** is a **100% pure native Rust** desktop virtual machine workstation for Windows, powered by **QEMU + Windows Hypervisor Platform (WHPX)**, **QMP**, and a **direct native TCP RFB/VNC GPU framebuffer renderer** (`eframe` / `egui` 0.37 on `wgpu` DX12).
 >
 > **Hard Rule:** Zero React. Zero TypeScript. Zero Node.js. Zero Electron. Zero Tauri/WebView2. Zero VirtualBox. Pure native Rust only.
 
