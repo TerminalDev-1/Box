@@ -1,0 +1,22 @@
+[package]
+name = "box-vm"
+version = "1.0.0"
+edition = "2021"
+description = "Box — Native Rust Virtual Machine Workstation"
+
+[dependencies]
+eframe = { version = "0.37", default-features = false, features = [
+    "wgpu",
+    "default_fonts",
+] }
+egui = "0.37"
+rfd = "0.18"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+uuid = { version = "1", features = ["v4"] }
+chrono = { version = "0.4", features = ["serde"] }
+dirs = "6"
+sysinfo = "0.33"
+
+[profile.dev.package."*"]
+opt-level = 2

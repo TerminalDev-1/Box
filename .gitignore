@@ -1,0 +1,8 @@
+/target/
+**/*.rs.bk
+*.pdb
+*.qcow2
+*.iso
+*.fd
+.DS_Store
+Thumbs.db
